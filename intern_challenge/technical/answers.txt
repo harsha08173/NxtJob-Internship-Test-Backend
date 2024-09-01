@@ -1,11 +1,32 @@
 1.  Explain, in your own words, the importance of data consistency in real-time applications.
 ->
+Data consistency in real-time applications is crucial.It helps in making accurate decisions which play a key role in real time.
+Here are three examples that illustrate the importance of data consistency in real-time applications:
+
+i. Online banking : In banking it is crucial to display accurate balances and transaction histories.If two transactions are transferring money at the same time,it should be processed in a consistent manner.Inconsitency leads to loss of trust among the customers.
+
+ii. Multiplayer Gaming : In multiplayer games,data consistency is important for fair gameplay.
+example: In a shooting game,the game state must be consistent across all players screens. If one player sees an enemy in a different location due to data inconsistency, it can create an unfair advantage,It will degrade the gaming experience.This leads to dissatisfaction or cheating.
+
+iii. Collaborative Document Editing:It is important to maintain data consistency on a platform like google docs, where multiple users edit at the same time.Inconsistency leads to confusion,duplicate efforts and errors.
+------------------------------------------------------------------------------------------------------------------
 
 2. How do you handle concurrency issues in a multi-user environment?
-->
+-> In a multi-user environment, transactions provide a way to maintain consistency of the database.By using transactions,database operations are treated as a single unit.It helps in preventing interference of operations.Consistency, durability and isolation are required for a lossless transaction.
+
+------------------------------------------------------------------------------------------------------------------
 
 3. Describe a scenario where you had to optimize database queries for better performance.
 ->
+We were working on a project ,where we needed to perform queries on a customer dataset.The steps we took for improving the performance are:
+1.selective search : Instead of performing queries to get all fields (SELECT *) , only selecting particular columns.
+2.Indexing : It involves creating a structure known as index, which allows for faster retrival of data.
+3.Table partioning: Spliting larger table to smaller pieces helps in performance boost.
 
+
+------------------------------------------------------------------------------------------------------------------
 4. Discuss the trade-offs between using WebSockets and HTTP/2 for real-time communication.
 ->
+The most appropriate usage for WebSockets is where there is a continuous low-latency data stream in both directions, such as in live chat applications or online gaming. Essentially, they create connections to support continuous data streams, but they can be overly expensive if there are multiple connections at once.It has persistent connections
+
+HTTP/2 is well-suited for situations where multiple simultaneous requests are needed but does not  support bidirectional communication.It helps in improving performance by multiplexing streams over a single connection.Low latency due to multiplexing but may introduce overhead.
