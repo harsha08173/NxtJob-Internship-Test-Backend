@@ -1,9 +1,37 @@
 
 1. How do you stay updated on backend development topics and remain active in the community? (Forums/Discord/Slack/Meetups/Twitter/Blogs)
 ->
+To stay updated on backend topics,It takes continuous learning. Stack Overflow is a great place to learn new things.When i get stuck in code, I usually reach out to stackoverflow .I get to learn many things eventually solving the issue.I also attend online workshops.I signed up with news letters which send regular posts via email.I subscribed to many youtubers who post regular videos about trending technologies. These are the ways I use to stay updated with backend development related topics.
 
+-----------
 2. What are your most-used IDE and keyboard shortcuts when coding?
-->
+-> 
+I mostly use "VSCODE" for development purpose.The shortcuts I use are
+1.Comment/Uncomment Lines : 'Ctrl + / '
+2.Selecting Lines : 'Shift + arrow Keys'
+3.Find and Replace: 'Ctrl+ F'
+4.New Window : 'Ctrl+Shift+N'
+5.New Terminal : " Ctrl+Shift+' "
+6.Start Debugging: 'F5'
+7.Open File : 'Ctrl+O'
+8.Go to definition: 'F12'
+9.Undo and Redo : 'Ctrl+Z' and 'Ctrl+Shift+Z'
+10.Show all Commands : 'Ctrl+Shift+P'
+
+-----------------------------
+
 
 3. How do you approach the design and implementation of a scalable backend system? Feel free to attach code snippets for better explanation.
 ->
+
+Here is a quick, step-by-step approach to design and implement a scalable backend: 
+1.Defining our goal
+2.Gathering information 
+3.Choosing an architecture
+4.Designing the model
+5.Tech stack selection
+6.Implementing microservices and Restful APIs
+7.Optimizing database performance
+8.Automate Scaling and Monitoring
+
+
